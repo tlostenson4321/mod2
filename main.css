@@ -35,7 +35,6 @@
 	transform: translateY(-50%);
 }
 .horiz {
-	list-style-type: none;
 	display:inline;
 }
 a {
@@ -95,8 +94,33 @@ nav {
 	text-decoration: underline;
 	color: slategray;
 }
-.float {
-	
-
+.comment {
+	display: inline-block;
+	width: 80px;
 }
-
+time {
+	font-size: 10px;
+	color: slategray;
+}
+.stream {
+	display: inline-block;
+	vertical-align: top;
+}
+li {
+	list-style-type: none;
+}
+.tab-one {
+	display: inline-block;
+	border: 1px solid blue;
+	padding: 5px;
+	font-weight: bold;
+}
+.tab-box {
+	width:700px;
+	height: 100%;
+	border: 1px solid blue;
+	padding:5px;
+}
+.second.tab-one {
+	border-bottom:hidden;
+}
