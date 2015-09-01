@@ -40,19 +40,17 @@
 }
 a {
 	text-decoration: none;
-	color:white;
-	background-color: #ff4d4d;
-	
-
+}
+.button {
+	display: inline-block;
 }
 .button-big {
-	display:inline-block;
 	font-size: 30px;
 	padding:10px 50px;
-
+	background-color: #ff4d4d;
+	color: white;
 }
 .button-medium {
-	display:inline-block;
 	font-size:20px;
 	padding: 5px 30px;
 	border: 0px solid #ff4d4d;
@@ -60,9 +58,10 @@ a {
 	color: white;
 }
 .button-small {
-	display:inline-block;
 	font-size: 15px;
 	padding: 5px;
+	background-color: #ff4d4d;
+	color: white;
 }
 nav {
 	width:600px;
@@ -74,6 +73,9 @@ nav {
 	padding: 10px 20px;
 	font-size: 20px;
 }
+.nav-item a{
+	color:white;
+}
 .pag-parent {
 	font-size: 20px;
 	padding: 10px;
@@ -83,10 +85,18 @@ nav {
 	text-decoration: underline;
 	padding: 10px;
 }
-.pag-kid {
-	display: inline-block;
+.pag-child a{
+	color:#ff4d4d;
 }
+.pag-kid a{
+	color: #ff4d4d;
+}
+.pag-kid span {
+	text-decoration: underline;
+	color: slategray;
+}
+.float {
+	
 
-
-
+}
 
