@@ -1,1 +1,17 @@
-/* ADD YOUR STYLES HERE */
+.padmain {
+	width:70vw;
+	padding-left: 10vw;
+}
+.padbox {
+	padding: 15px;
+
+}
+.inline-block {
+	display: inline;
+	width: 90vw;
+	padding: 15px;
+}
+.block-image {
+	display:inline-block;
+	padding: 15px;
+}
