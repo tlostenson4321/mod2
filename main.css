@@ -15,9 +15,10 @@
 }
 .inline-content {
 	display:inline-block;
-	vertical-align: top;
 	padding-left: 15px;
 	padding-right: 15px;
+	vertical-align: top;
+	margin:0;
 }
 
 .verpad {
@@ -41,6 +42,7 @@ a {
 	text-decoration: none;
 	color:white;
 	background-color: #ff4d4d;
+	
 
 }
 .button-big {
@@ -50,7 +52,7 @@ a {
 
 }
 .button-medium {
-	display: inline-block;
+	display:inline-block;
 	font-size:20px;
 	padding: 5px 30px;
 	border: 0px solid #ff4d4d;
@@ -58,7 +60,7 @@ a {
 	color: white;
 }
 .button-small {
-	display: inline-block;
+	display:inline-block;
 	font-size: 15px;
 	padding: 5px;
 }
@@ -72,3 +74,19 @@ nav {
 	padding: 10px 20px;
 	font-size: 20px;
 }
+.pag-parent {
+	font-size: 20px;
+	padding: 10px;
+}
+.pag-child {
+	display:inline-block;
+	text-decoration: underline;
+	padding: 10px;
+}
+.pag-kid {
+	display: inline-block;
+}
+
+
+
+
