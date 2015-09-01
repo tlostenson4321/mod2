@@ -40,23 +40,35 @@
 a {
 	text-decoration: none;
 	color:white;
+	background-color: #ff4d4d;
+
 }
 .button-big {
-	background-color: #ff4d4d;
 	display:inline-block;
 	font-size: 30px;
 	padding:10px 50px;
 
 }
 .button-medium {
-	background-color: #ff4d4d;
 	display: inline-block;
 	font-size:20px;
 	padding: 5px 30px;
+	border: 0px solid #ff4d4d;
+	background-color: #ff4d4d;
+	color: white;
 }
 .button-small {
-	background-color: #ff4d4d;
 	display: inline-block;
 	font-size: 15px;
 	padding: 5px;
+}
+nav {
+	width:600px;
+	background-color: #ff4d4d;
+}
+.nav-item {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 20px;
 }
