@@ -10,8 +10,8 @@
 .inline-block {
 	width: 100vw;
 	height: 160px;
-	padding-left:15vw;
-	padding-right: 15vw;
+	padding-left:10vw;
+	padding-right: 10vw;
 }
 .inline-content {
 	display:inline-block;
@@ -21,5 +21,42 @@
 }
 
 .verpad {
-	
+	height:400px;
+}
+.verpad-child {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.verpad-kid {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.horiz {
+	list-style-type: none;
+	display:inline;
+}
+a {
+	text-decoration: none;
+	color:white;
+}
+.button-big {
+	background-color: #ff4d4d;
+	display:inline-block;
+	font-size: 30px;
+	padding:10px 50px;
+
+}
+.button-medium {
+	background-color: #ff4d4d;
+	display: inline-block;
+	font-size:20px;
+	padding: 5px 30px;
+}
+.button-small {
+	background-color: #ff4d4d;
+	display: inline-block;
+	font-size: 15px;
+	padding: 5px;
 }
