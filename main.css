@@ -1,17 +1,25 @@
 .padmain {
-	width:70vw;
+	width:100vw;
 	padding-left: 10vw;
+	padding-right: 10vw;
 }
 .padbox {
 	padding: 15px;
 
 }
 .inline-block {
-	display: inline;
-	width: 90vw;
-	padding: 15px;
+	width: 100vw;
+	height: 160px;
+	padding-left:15vw;
+	padding-right: 15vw;
 }
-.block-image {
+.inline-content {
 	display:inline-block;
-	padding: 15px;
+	vertical-align: top;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.verpad {
+	
 }
